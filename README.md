@@ -33,9 +33,9 @@ window = QWidget()
 window.QLabel("This is Test", parent = window)
 window.show()
 To retain window add following code
-sys.exit(app.exce_())
+sys.exit(app.exce\_())
 Also, add following code lines to experiment moe
-window.setGeometry(100, 100, 280, 80) # It will set  x, y, w, h of app window
+window.setGeometry(100, 100, 280, 80) # It will set x, y, w, h of app window
 window.move(600,400) # Move window x from left and y from top
 3: Create view of application i.e. GUI
 Create class named view.py
@@ -48,9 +48,9 @@ from PyQt5.QtWidgets import QPushButton
 from PyQt5.QtWidgets import QVBoxLayout
 Create class GUI with parent set to QMainWindow
 class GUI(QMainWindow):
-Add Constructor ...It will initiate main window by calling superclass constuctor and setting basic parametes such as ..* WindowTitle ..* Size ..* generalLayout ..* LED Display ..* Buttons
+Add Constructor ...It will initiate main window by calling superclass constuctor and setting basic parametes such as .._ WindowTitle .._ Size .._ generalLayout .._ LED Display ..\* Buttons
 
-Define methods ..* _createDisplayLED ..* _createButtons ..* setDisplayText ..* getDisplayText ..* clearDisplay
+Define methods .._ \_createDisplayLED .._ \_createButtons .._ setDisplayText .._ getDisplayText ..\* clearDisplay
 
 4: Create Controller of application
 5: Create Model of application
