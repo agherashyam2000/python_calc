@@ -1,4 +1,5 @@
 Basic Calculator using Python PyQt
+
 This app is divided in three main parts as per MCV.
 
 1: Create View:
