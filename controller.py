@@ -4,6 +4,7 @@ ERROR_MSG = 'ERROR'
 
 
 class Controller:
+    
     """PyCalc's Controller."""
 
     def __init__(self, model, view):
