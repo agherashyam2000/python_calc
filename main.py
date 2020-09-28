@@ -3,7 +3,7 @@ import sys
 
 from PyQt5.QtWidgets import QApplication
 from view import GUI
-#from controller import Controller
+from controller import Controller
 from model import evaluateExpression
 
 # Client code
@@ -19,7 +19,7 @@ def main():
 
     # Create instances of the model and the controller
     model = evaluateExpression
-    #Controller(model=model, view=view)
+    Controller(model=model, view=view)
 
     # Execute the calculator's main loop
     sys.exit(pycalc.exec_())
